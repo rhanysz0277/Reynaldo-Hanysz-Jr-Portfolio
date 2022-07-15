@@ -1,0 +1,41 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.primaryNav{
+    position:fixed;
+    text-align:center;
+    border:1px solid black;
+    top:0px;
+    right:0px;
+    width:66%;
+    height:5%;
+    background-color:white;
+}
+#notNav{
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns:1fr 2fr;
+    grid-template-areas:
+    "sideBar cardArea cardArea"
+    "sideBar cardArea cardArea"
+    "sideBar cardArea cardArea"
+}
+#sideBar{
+    background-color:#5e6269;
+    grid-area:sideBar;
+}
+.cardArea{
+    grid-area:cardArea;
+
+}
+.card{
+    background-color:white;
+}
+.cardImage{
+    display:inline-block;
+
+}
+.cardTitle{
+    display:inline-block;
+
+}
