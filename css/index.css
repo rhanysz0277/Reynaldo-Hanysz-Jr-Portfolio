@@ -2,12 +2,15 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 .primaryNav{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
     position:fixed;
     text-align:center;
     border:1px solid black;
     top:0px;
     right:0px;
-    width:66%;
+    width:70%;
     height:5%;
     background-color:white;
 }
@@ -23,17 +26,24 @@ body{
 #sideBar{
     background-color:#5e6269;
     grid-area:sideBar;
+    color:white;
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:100%;
+    width:30%;
 }
 .cardArea{
     grid-area:cardArea;
-
+    height:100%;
 }
 .card{
     background-color:white;
 }
 .cardImage{
     display:inline-block;
-
+    width:345px;
+    height:229px;
 }
 .cardTitle{
     display:inline-block;
