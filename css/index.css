@@ -7,12 +7,15 @@ body{
     align-items:center;
     position:fixed;
     text-align:center;
-    border:1px solid black;
     top:0px;
     right:0px;
     width:70%;
     height:5%;
     background-color:white;
+}
+.primaryNav a{
+    text-decoration:none;
+    color:black;
 }
 #notNav{
     display:grid;
@@ -33,19 +36,40 @@ body{
     height:100%;
     width:30%;
 }
+#logo{
+    position:fixed;
+    top:0;
+    left:0;
+    width:42px;
+    height:81px;
+}
 .cardArea{
     grid-area:cardArea;
     height:100%;
 }
 .card{
     background-color:white;
+    display:flex;
+    width:1075px;
+    height:229px;
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align:left;
+}
+.cardContent{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:left;
+    padding-left:20px;
 }
 .cardImage{
     display:inline-block;
     width:345px;
     height:229px;
 }
-.cardTitle{
-    display:inline-block;
-
+.cardContent a{
+    position:relative;
+    bottom:0;
+    left:0; 
 }
