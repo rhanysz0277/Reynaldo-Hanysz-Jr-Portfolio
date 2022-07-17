@@ -55,6 +55,7 @@ body{
     padding-top:50px;
     padding-bottom:50px;
     text-align:left;
+    box-shadow:1px,4px,4px,black;
 }
 .cardContent{
     display:flex;
@@ -70,4 +71,10 @@ body{
 }
 .less{
     display:none;
+}
+#mvacacasestudy{
+    width:1075px;
+    height:891px;
+    display:none;
+    background-color:white;
 }
