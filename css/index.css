@@ -68,8 +68,6 @@ body{
     width:345px;
     height:229px;
 }
-.cardContent a{
-    position:relative;
-    bottom:0;
-    left:0; 
+.less{
+    display:none;
 }
