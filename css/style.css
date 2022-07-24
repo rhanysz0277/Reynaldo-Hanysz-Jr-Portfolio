@@ -1,0 +1,21 @@
+#logo{
+    height:99px;
+}
+#dlarrow{
+    height:22px;
+    width:16px;
+}
+.navbar-nav{
+    margin:0 auto !important;
+}
+.customnav{
+    height:99px !important;
+    background-color:white !important;
+    position:fixed;
+    width:100%;
+}
+.navbar-nav a{
+    margin-left:106px;
+    margin-right:106px;
+    color:black !important;
+}
