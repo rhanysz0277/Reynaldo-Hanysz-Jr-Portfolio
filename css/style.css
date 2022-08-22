@@ -16,9 +16,36 @@ body{
     background-color:white !important;
     position:fixed;
     width:100%;
+    z-index:10;
 }
 .navbar-nav a{
     margin-left:106px;
     margin-right:106px;
     color:black !important;
+}
+#heroSpace{
+    background-color:#5E6269;
+    padding-top:100px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+#casestudieshome{
+    background-color:#3D7DDB;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+#contact{
+    background-color:#8BADE0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+#contact button{
+    background-color:#1A345C !important;
 }
