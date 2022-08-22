@@ -32,12 +32,34 @@ body{
     align-items:center;
     text-align:center;
 }
+#heroSpace h2{
+    padding:1%;
+}
+#heroSpace h3{
+    padding:1%;
+    padding-bottom:3%;
+}
+.heroContent{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+}
 #casestudieshome{
     background-color:#3D7DDB;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    padding-bottom:2%;
+}
+#casestudieshome a{
+    text-decoration:none;
+    color:black;
+}
+#casestudieshome h1{
+    padding:2%;
 }
 #contact{
     background-color:#8BADE0;
