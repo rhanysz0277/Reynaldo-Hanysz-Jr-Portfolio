@@ -71,3 +71,9 @@ body{
 #contact button{
     background-color:#1A345C !important;
 }
+#contact form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
