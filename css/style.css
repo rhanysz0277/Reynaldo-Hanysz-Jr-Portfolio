@@ -34,10 +34,12 @@ body{
 }
 #heroSpace h2{
     padding:1%;
+    color:white;
 }
 #heroSpace h3{
     padding:1%;
     padding-bottom:3%;
+    color:white;
 }
 #heroSpace img{
     width:70%;
